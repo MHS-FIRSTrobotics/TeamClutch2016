@@ -40,10 +40,10 @@ public class BasicLayout extends ExtensibleOpMode {
     /**
      * Something went wrong? This is where you process it.
      *
-     * @param ctx the Robot context
+     * @param ctx       the Robot context
      * @param eventType the type of event
-     * @param event the actual event
-     * @param in a failure event
+     * @param event     the actual event
+     * @param in        a failure event
      * @return an integer value representing what to do; values < 0 stops the robot
      */
     @Override

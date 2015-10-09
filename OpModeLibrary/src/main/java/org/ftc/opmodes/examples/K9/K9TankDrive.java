@@ -90,9 +90,9 @@ public class K9TankDrive extends OpMode {
 		 * that the names of the devices must match the names used when you
 		 * configured your robot and created the configuration file.
 		 */
-		
+
 		/*
-		 * For the demo Tetrix K9 bot we assume the following,
+         * For the demo Tetrix K9 bot we assume the following,
 		 *   There are two motors "motor_1" and "motor_2"
 		 *   "motor_1" is on the right side of the bot.
 		 *   "motor_2" is on the left side of the bot.

@@ -67,7 +67,7 @@ public class Autonomous implements Runnable {
 
     public synchronized void setRunLevels(@NotNull RunLevel[] newLevels) {
         checkState(stopLevel == initLevel, "Stop and Init Levels are the same, please specify the " +
-                    "new levels.");
+                "new levels.");
 
         for (RunLevel level : newLevels) {
             checkNotNull(level);

@@ -50,7 +50,7 @@ public class K9TankDrive extends ExtensibleOpMode {
 		 */
 
 		/*
-		 * For the demo Tetrix K9 bot we assume the following,
+         * For the demo Tetrix K9 bot we assume the following,
 		 *   There are two motors "motor_1" and "motor_2"
 		 *   "motor_1" is on the right side of the bot.
 		 *   "motor_2" is on the left side of the bot.
@@ -117,7 +117,7 @@ public class K9TankDrive extends ExtensibleOpMode {
     @Override
     public void loop(RobotContext ctx, LinkedList<Object> out) throws Exception {
         /*
-		 * Gamepad 1
+         * Gamepad 1
 		 *
 		 * Gamepad 1 controls the motors via the left stick, and it controls the
 		 * wrist/claw via the a,b, x, y buttons

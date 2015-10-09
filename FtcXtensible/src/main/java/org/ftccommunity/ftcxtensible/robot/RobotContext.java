@@ -241,7 +241,7 @@ public class RobotContext {
         if (runnable != null) {
             asyncService.execute(runnable);
         } else {
-            throw new  NullPointerException();
+            throw new NullPointerException();
         }
     }
 

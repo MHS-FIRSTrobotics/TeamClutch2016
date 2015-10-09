@@ -313,7 +313,6 @@ public class ExtensibleGamepad {
     }
 
 
-
     /**
      * The Joystick for use in {@link ExtensibleGamepad}. This is an object representative of the data
      * present in the joysticks, and the data that the FTC SDK can give

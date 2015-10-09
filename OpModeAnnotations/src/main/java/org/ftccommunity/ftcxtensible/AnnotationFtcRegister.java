@@ -125,7 +125,6 @@ public class AnnotationFtcRegister {
     }
 
 
-
     public String getOpModeName(Class<OpMode> opMode) {
         String name;
         if (opMode.isAnnotationPresent(TeleOp.class)) {

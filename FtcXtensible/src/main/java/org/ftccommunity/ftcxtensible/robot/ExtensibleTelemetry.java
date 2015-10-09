@@ -80,8 +80,8 @@ public class ExtensibleTelemetry {
                 concurrencyLevel(4).
                 expireAfterAccess(250, TimeUnit.MILLISECONDS).
                 maximumSize(dataPointsToSend).build();
-        
-        dataCache = EvictingQueue.create((int)(dataPointsToSend * .75));
+
+        dataCache = EvictingQueue.create((int) (dataPointsToSend * .75));
         data = LinkedHashMultimap.create();
         log = new LinkedList<>();
 
@@ -96,7 +96,7 @@ public class ExtensibleTelemetry {
     public void data(String tag, String message) {
         checkArgument(Strings.isNullOrEmpty(message), "Your message shouldn't be empty.");
         tag = Strings.nullToEmpty(tag);
-        
+
         synchronized (dataCache) {
             lastModificationTime = System.nanoTime();
             dataCache.add((!tag.equals("") ? tag.toUpperCase(Locale.getDefault()) + " " : "") + message);
@@ -154,7 +154,7 @@ public class ExtensibleTelemetry {
             }
         }
     }
-    
+
     public void forceUpdateCache() {
         int numberOfElements;
         synchronized (cache) {

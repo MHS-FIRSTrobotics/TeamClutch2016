@@ -77,7 +77,7 @@ public class K9IrSeeker extends OpMode {
 		 */
 
 		/*
-		 * For the demo Tetrix K9 bot we assume the following,
+         * For the demo Tetrix K9 bot we assume the following,
 		 *   There are two motors "motor_1" and "motor_2"
 		 *   "motor_1" is on the right side of the bot.
 		 *   "motor_2" is on the left side of the bot.
@@ -98,7 +98,7 @@ public class K9IrSeeker extends OpMode {
         clawPosition = 0.25;
 
 		/*
-		 * We also assume that we have a Hitechnic IR Seeker v2 sensor
+         * We also assume that we have a Hitechnic IR Seeker v2 sensor
 		 * with a name of "ir_seeker" configured for our robot.
 		 */
         irSeeker = hardwareMap.irSeekerSensor.get("ir_seeker");

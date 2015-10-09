@@ -1,15 +1,6 @@
 # TeamClutch-FTC2016
-# Xtensible OpMode Library
 ### Note that this is a development release code function and syntax is not guaranteed to be the
  same between versions and code quality may be below usual standards
-FTC Android Studio project to create FTC Robot Controller app.
-
-This is the FTC SDK that can be used to create an FTC Robot Controller app, with custom op modes.
-The FTC Robot Controller app is designed to work in conjunction with the FTC Driver Station app.
-The FTC Driver Station app is available through Google Play.
-
-To use this SDK, download/clone the entire project to your local computer.
-Use Android Studio to import the folder ("Import project (Eclipse ADT, Gradle, etc.)").
 
 ## Xtensible OpMode
 This is the main "OpMode" class for this library. You can extend this class for use

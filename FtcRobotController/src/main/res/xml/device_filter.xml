@@ -11,6 +11,6 @@
 <resources>
     <usb-device
         product-id="24577"
-        vendor-id="1027"/>
+        vendor-id="1027" />
     <!-- FT232 Modern Robotics -->
 </resources>

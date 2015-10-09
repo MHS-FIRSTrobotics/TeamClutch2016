@@ -83,7 +83,7 @@ public class K9AutoTime extends OpMode {
 		 */
 
 		/*
-		 * For the demo Tetrix K9 bot we assume the following,
+         * For the demo Tetrix K9 bot we assume the following,
 		 *   There are two motors "motor_1" and "motor_2"
 		 *   "motor_1" is on the right side of the bot.
 		 *   "motor_2" is on the left side of the bot..
@@ -104,7 +104,7 @@ public class K9AutoTime extends OpMode {
         clawPosition = 0.25;
 
 		/*
-		 * We also assume that we have a LEGO light sensor
+         * We also assume that we have a LEGO light sensor
 		 * with a name of "light_sensor" configured for our robot.
 		 */
         reflectedLight = hardwareMap.lightSensor.get("light_sensor");

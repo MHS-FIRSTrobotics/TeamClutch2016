@@ -1,7 +1,6 @@
-<LinearLayout
-    android:id="@+id/entire_screen"
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/entire_screen"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:focusable="true"
@@ -22,7 +21,7 @@
             android:layout_centerVertical="true"
             android:layout_margin="5dp"
             android:adjustViewBounds="true"
-            android:background="@drawable/icon_robotcontroller"/>
+            android:background="@drawable/icon_robotcontroller" />
 
         <TextView
             android:id="@+id/textDeviceName"
@@ -33,7 +32,7 @@
             android:padding="8dp"
             android:textColor="@color/white"
             android:textSize="16sp"
-            android:textStyle="bold"/>
+            android:textStyle="bold" />
 
         <ImageButton
             android:id="@+id/menu_buttons"
@@ -49,14 +48,14 @@
             android:contentDescription="menu_buttons"
             android:padding="15dp"
             android:scaleType="fitXY"
-            android:src="@drawable/icon_menu"/>
+            android:src="@drawable/icon_menu" />
 
     </RelativeLayout>
     <!-- end of black bar -->
 
     <include
         android:id="@+id/included_header"
-        layout="@layout/header"/>
+        layout="@layout/header" />
 
     <RelativeLayout
         android:id="@+id/RelativeLayout"
@@ -72,21 +71,21 @@
             android:id="@+id/textWifiDirectStatus"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text=""/>
+            android:text="" />
 
         <TextView
             android:id="@+id/textRobotStatus"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_below="@+id/textWifiDirectStatus"
-            android:text=""/>
+            android:text="" />
 
         <TextView
             android:id="@+id/textOpMode"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_below="@+id/textRobotStatus"
-            android:text=""/>
+            android:text="" />
 
         <TextView
             android:id="@+id/textErrorMessage"
@@ -97,7 +96,7 @@
             android:minLines="2"
             android:text=""
             android:textColor="#990000"
-            android:textStyle="bold"/>
+            android:textStyle="bold" />
 
         <TextView
             android:id="@+id/textGamepad1"
@@ -106,7 +105,7 @@
             android:layout_above="@+id/textGamepad2"
             android:layout_marginBottom="10dp"
             android:minLines="3"
-            android:text=""/>
+            android:text="" />
 
         <TextView
             android:id="@+id/textGamepad2"
@@ -115,7 +114,7 @@
             android:layout_alignParentBottom="true"
             android:layout_marginBottom="10dp"
             android:minLines="3"
-            android:text=""/>
+            android:text="" />
 
     </RelativeLayout>
 </LinearLayout>
